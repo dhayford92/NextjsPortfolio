@@ -1,0 +1,57 @@
+.mainTitle {
+    font-size: 100px;
+}
+
+
+.container{
+
+}
+
+.selectText {
+    margin: 28px 0px;
+}
+
+
+.items {
+    display: flex;
+    gap: 50px;
+}
+
+.item{
+    cursor: pointer;
+    border: 5px solid #bbb;
+    border-radius: 5px;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    background-size: cover !important;
+}
+
+.item:nth-child(1){
+    background: url("/api.png");
+}
+.item:nth-child(2){
+    background: url("/website.png");
+}
+.item:nth-child(3){
+    background: url("/mobile.png");
+}
+.item:nth-child(4){
+    background: url("/desktop.png");
+}
+
+.title {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: blueviolet;
+    padding: 5px;
+}
+
+
+.item:hover .title{
+    color: #6C63FF;
+    background-color: transparent;
+}
